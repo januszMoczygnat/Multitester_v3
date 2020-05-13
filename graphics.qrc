@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>graphics/0.png</file>
+        <file>graphics/1.png</file>
+        <file>graphics/2.png</file>
+        <file>graphics/3.png</file>
+        <file>graphics/4.png</file>
+        <file>graphics/5.png</file>
+        <file>graphics/6.png</file>
+        <file>graphics/7.png</file>
+        <file>graphics/8.png</file>
+        <file>graphics/9.png</file>
+        <file>graphics/CENA.png</file>
+        <file>graphics/CLR.png</file>
+        <file>graphics/DOL.png</file>
+        <file>graphics/down.png</file>
+        <file>graphics/F1.png</file>
+        <file>graphics/F2.png</file>
+        <file>graphics/F3.png</file>
+        <file>graphics/F4.png</file>
+        <file>graphics/F5.png</file>
+        <file>graphics/F6.png</file>
+        <file>graphics/F7.png</file>
+        <file>graphics/F8.png</file>
+        <file>graphics/F9.png</file>
+        <file>graphics/GORA.png</file>
+        <file>graphics/ID.png</file>
+        <file>graphics/ILOSC.png</file>
+        <file>graphics/KOD.png</file>
+        <file>graphics/Logo.png</file>
+        <file>graphics/PRZECINEK.png</file>
+        <file>graphics/RAZEM.png</file>
+        <file>graphics/SHIFT.png</file>
+        <file>graphics/up.png</file>
+        <file>graphics/ZWORA.png</file>
+    </qresource>
+</RCC>
