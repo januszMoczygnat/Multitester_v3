@@ -12,11 +12,13 @@ void FileOperationRead::readFile() {
         readStream.setCodec(QTextCodec::codecForMib(106));
         readStream.setGenerateByteOrderMark(true);
         while(!readStream.atEnd()) {
-            readedFile.append(readStream.readLine());
+            dataReaded.append(readStream.readLine());
         }
         fileToRead.close();
+        emit sendReadedFile(dataReaded);
         emit sendStatusBarInformation(QString::fromUtf8("Odczytywanie pliku zakończone prawidłowo..."));
     } else {
         emit sendMessageBoxInformation(fileToRead.errorString());
     }
+    emit finishReadFile();
 }
